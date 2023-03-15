@@ -1,0 +1,70 @@
+body {
+    margin: 10%; 
+}
+
+@font-face {
+    font-family:"Score";
+    src: url(fonts/Score.ttf);
+    font-weight: ;
+}
+
+button {
+    font-family: "Score";
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px ;
+    padding: 10px;
+    margin: 25px 5px 0px 0px ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    margin: auto;
+    width: 575px;
+    height: 385px;   
+}
+
+.home {
+    font-family: 'Gothic A1', sans-serif;
+    padding-top: 25px;
+    color: #F9FAFB;
+    text-align: center;
+}
+
+#home-txt {
+    font-size:xx-large ;
+    margin: 15px;
+}
+
+.home-score {
+    font-size: xx-large;
+    font-family: "Score";
+    color: #F94F6D;
+    text-align: center;
+    padding: 5px 10px ;
+    background-color: #080001;
+}
+
+.guest {
+    font-family: 'Gothic A1', sans-serif;
+    padding-top: 25px;
+    color: #F9FAFB;
+    text-align: center;
+}
+
+#guest-txt {
+    font-size:xx-large ;
+    margin: 15px;
+}
+
+.guest-score {
+    font-size: xx-large;
+    font-family: "Score";
+    color: #F94F6D;
+    text-align: center;
+    padding: 5px 10px ; ;
+    background-color: #080001;
+}

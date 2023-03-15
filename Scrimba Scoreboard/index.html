@@ -1,0 +1,40 @@
+<html>
+    <head> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <span id="counthome-el"></span>
+        <span id="countguest-el"></span>
+        <div class="container">
+            <div class="home">
+                <h3 id="home-txt">HOME</h3>
+                <div class="home-score">
+                    <h2 id="jshome-score">0</h2>
+                </div>
+                <div>
+                    <button id="home-increment-1-btn" onclick="incrementHomeScore1()"> +1 </button>
+                    <button id="home-increment-2-btn" onclick="incrementHomeScore2()"> +2 </button>
+                    <button id="home-increment-3-btn" onclick="incrementHomeScore3()"> +3 </button>
+                </div>
+                <button id="home-reset-btn" onclick="resetHomeScore()">RESET</button>
+            </div>
+            <div class="guest">
+                <h3 id="guest-txt">GUEST</h3>
+                <div class="guest-score">
+                    <h2 id="jsguest-score">0</h2>
+                </div>
+                <div>
+                    <button id="guest-increment-1-btn" onclick="incrementGuestScore1()"> +1 </button>
+                    <button id="guest-increment-2-btn" onclick="incrementGuestScore2()"> +2 </button>
+                    <button id="guest-increment-3-btn" onclick="incrementGuestScore3()"> +3 </button>
+                </div>
+                <button id="guest-reset-btn" onclick="resetGuestScore()">RESET</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
